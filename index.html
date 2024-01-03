@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GANJIL GENAP & FAKTORIAL LOOP</title>
+    <style>
+        html {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>GANJIL GENAP</h1>
+    <!-- GANJIL GENAP -->
+    <h3>FOR</h3>
+    <p> 
+        for (let i = 1 ; i <= 5; i++){</br>
+            if (i % 2 != 0){</br>
+                console.log (`${i} = bilangan ganjil`)</br>
+            } else {</br>
+                console.log (i, "= bilangan genap")</br>
+            }</br>
+            }</br>
+    </p>
+
+    <h3>WHILE</h3>
+    <p>
+        let o = 1 </br>
+        while (o <= 5){</br>
+            if (o % 2 != 0){</br>
+                console.log (`${o} = bilangan ganjil`)</br>
+            } else {</br>
+                console.log (`${o} = bilangan genap`)</br>
+            }</br>
+            o++</br>
+        }</br>
+    </p>
+
+    <h3>DO WHILE</h3>
+    <p>
+        let p = 1</br>
+    
+        do {</br>
+            if (p % 2 != 0){</br>
+                console.log ('bilangan ganjil =', p)</br>
+            } else {</br>
+                console.log ('bilangan genap =', p)</br>
+            }</br>
+            p++</br>
+        } while (p <= 5)
+    </p>
+
+    <!-- ================================================================================== -->
+    <!-- ================================================================================== -->
+    <h1>FAKTORIAL</h1>
+    <!-- FAKTORIALL -->
+
+    <h3>FOR</h3>
+    <p>
+        let n = 5</br>
+        let faktorial = 1</br>
+        for(let i = 1; i <= n; i++){</br>
+            faktorial *= i</br>
+            console.log (faktorial)</br>
+        }</br>
+    </p>
+
+    <h3>WHILE</h3>
+    <p>
+        let a = 5</br>
+        let faktor = 1</br>
+        let f = 1</br>
+            while ( f <= a ){</br>
+            faktor *= f</br>
+            console.log (faktor)</br>
+            f++</br>
+        }
+    </p>
+
+    <h3>Do While</h3>
+    <p>
+        let m = 5</br>
+        let faktori = 1</br>
+        let k = 1</br>
+        do {</br>
+            faktori *= k</br>
+            console.log (faktori)</br>
+            k++</br>
+        }while (k <= m)</br>
+    </p>
+    <script>
+    // GANJIL GENAP
+    for (let i = 1 ; i <= 5; i++){
+            if (i % 2 != 0){
+                console.log (`${i} = bilangan ganjil`)
+            } else {
+                console.log (i, "= bilangan genap")
+            }
+        }
+
+        // =============================================
+
+        let o = 1
+
+        while (o <= 5){
+            if (o % 2 != 0){
+                console.log (`${o} = bilangan ganjil`)
+            } else {
+                console.log (`${o} = bilangan genap`)
+            }
+            o++
+        }
+
+        // =============================================
+
+        let p = 1 
+        
+        do {
+            if (p % 2 != 0){
+                console.log ('bilangan ganjil =', p)
+            } else {
+                console.log ('bilangan genap =', p)
+            }
+            p++
+        } while (p <= 5)
+
+        //=============================================================================//
+        //=============================================================================//
+
+    // FAKTORIAL
+    // For
+    
+    let n = 5
+    let faktorial = 1
+    for(let i = 1; i <= n; i++){
+        faktorial *= i
+        console.log (faktorial)
+    }
+// ========================================
+
+    // while
+
+    let a = 5
+    let faktor = 1
+    let f = 1
+    while ( f <= a ){
+        faktor *= f
+        console.log (faktor)
+        f++
+    }
+// ========================================
+
+    // Do While
+
+    let m = 5
+    let faktori = 1
+    let k = 1
+    do {
+        faktori *= k
+        console.log (faktori)
+        k++
+    } while (k <= m)
+
+    </script>
+</body>
+</html>
