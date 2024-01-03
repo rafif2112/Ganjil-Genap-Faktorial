@@ -92,8 +92,30 @@
             k++</br>
         }while (k <= m)</br>
     </p>
+
+    <h1>Tugas Menentukan Tahun kabisat atau tidak</h1>
+
+    <p>
+        for(let i = 1600; i <= 2024; i++){</br>
+            if (i % 400 == 0){</br>
+                console.log (i, "adalah tahun kabisat")</br>
+            }</br>
+            else if (i % 100 == 0 ){</br>
+                console.log (i, "ini bukan tahun kabisat")</br>
+            } </br>
+            else if (i % 4 == 0 ){</br>
+                console.log (i, "tahun kabisat")</br>
+            }</br>
+            else {</br>
+                console.log (`${i} bukan tahun kabisat`)</br>
+            }</br>
+        } 
+    </p>
+
     <script>
+
     // GANJIL GENAP
+
     for (let i = 1 ; i <= 5; i++){
             if (i % 2 != 0){
                 console.log (`${i} = bilangan ganjil`)
@@ -165,6 +187,27 @@
         k++
     } while (k <= m)
 
+
+
+    // ================================================================================ //
+    // ================================================================================ //
+    // ====================MENETUKAN TAHUN KABISAT ATAU TIDAK========================== //
+
+    for(let i = 1600; i <= 2024; i++){
+            if (i % 400 == 0){
+                console.log (i, "adalah tahun kabisat")
+            }
+            else if (i % 100 == 0 ){
+                console.log (i, "ini bukan tahun kabisat")
+            } 
+            else if (i % 4 == 0 ){
+                console.log (i, "tahun kabisat")
+            }
+            else {
+                console.log (`${i} bukan tahun kabisat`)
+            }
+        }
+        
     </script>
 </body>
 </html>
